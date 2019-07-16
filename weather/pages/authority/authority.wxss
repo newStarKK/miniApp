@@ -1,0 +1,45 @@
+/* pages/authority/authority.wxss */
+page{
+  background: #f4f4f4;
+}
+
+.logo_box{
+  width: 750rpx;
+  height: 390rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #f4f4f4;
+}
+
+.logo{
+  display: block;
+  width: 152rpx;
+  height: 152rpx;
+  border-radius: 50%;
+}
+
+.title{
+  color: #161616;
+  font-size: 32rpx;
+  text-align: center;
+  margin: 30rpx 0 10rpx;
+}
+
+.txt{
+  color: #949494;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.authority button{
+  background-color: #fab51f;
+  margin-top: 100rpx;
+  color: #fff;
+  width: 470rpx;
+  height: 76rpx;
+  border: none;
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+}

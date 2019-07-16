@@ -1,0 +1,12 @@
+@Import "./styles/layout.wxss";
+@Import "./styles/modal.wxss";
+/* @Import "./component/wux.wxss"; */
+@Import "./styles/ui-footer.wxss";
+@Import "./styles/code.wxss";
+@Import "./styles/ui-row.wxss";
+@Import "./styles/spacing.wxss";
+@Import "./styles/color.wxss";
+@Import "./styles/button.wxss";
+@Import "./styles/img.wxss";
+@Import "./styles/pannel.wxss";
+@Import "./styles/text.wxss";

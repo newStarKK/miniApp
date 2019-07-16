@@ -1,0 +1,50 @@
+.ui-row {
+  display: flex;
+}
+
+.ui-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.fixed-top, .fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+
+.flex-8 {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-2 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

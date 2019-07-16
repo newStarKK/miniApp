@@ -1,0 +1,35 @@
+.layout {
+  background-color: #f8f8f8;
+}
+
+.ui-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.ui-flex-between {
+  justify-content: space-between;
+}
+
+.ui-flex-between .ui-flex-item {
+  text-align: unset;
+}
+
+.ui-flex-between .ui-flex-item:nth-child(2) {
+  text-align: right;
+}
+
+.ui-flex-item {
+  flex: 1;
+  text-align: center;
+}
+
+.ui-flex-item .img {
+  margin: 0 auto;
+}
+
+.flex-end {
+  align-content: flex-end;
+}

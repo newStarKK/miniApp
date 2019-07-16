@@ -1,0 +1,48 @@
+/*模态框*/
+
+.modals {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modals-cancel {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-dialog-body {
+  position: absolute;
+  z-index: 10001;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 540rpx;
+  background: #fff;
+}
+
+.modal-dialog-body {
+  position: absolute;
+  z-index: 10001;
+  top: -420px;
+  left: 5%;
+  height: 420px;
+  width: 90%;
+  background: #fff;
+  overflow: unset;
+}
+
+/*动画前初始位置*/
+
+.bottom-pos {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}

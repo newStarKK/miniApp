@@ -1,0 +1,19 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <view class='my-top'>
+    <block wx:if="{{!hasUserInfo && canIUse}}">
+        <button class="userinfo-avatar" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击 </button>
+      <text class="userinfo-get">获取获取用户信息</text>
+    </block>
+    <block wx:else>
+      <view class='my-tl'>
+        <image class='img' bindtap="bindViewTap" src="{{userInfo.avatarUrl || '../../images/canyu.png'}}"></image>
+      </view>
+      <view class='my-tr'>
+      {{userInfo.nickName || 'FA23AFAW'}}
+      </view>
+    </block>
+    
+  </view>
+</view>
+

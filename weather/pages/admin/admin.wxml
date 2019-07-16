@@ -1,0 +1,5 @@
+<!--pages/admin/admin.wxml-->
+<view class="container">
+  设备
+</view>
+

@@ -1,0 +1,28 @@
+.text-center {
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 36rpx;
+} 
+
+.text-lger {
+  font-size: 60rpx;
+}
+
+.text-md {
+  font-size: 32rpx;
+}
+
+.text-sm {
+  font-size: 24rpx;
+}
+.text-xs {
+  font-size: 22rpx;
+}
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}

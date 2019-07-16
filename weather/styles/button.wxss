@@ -1,0 +1,102 @@
+button {
+  /* min-width: 106rpx; */
+}
+
+.btn-xs {
+  font-size: 28rpx !important;
+  min-width: 100rpx;
+  border-radius: 8rpx;
+  padding: 0 20rpx !important;
+}
+
+.btn-md {
+  font-size: 34rpx !important;
+  border-radius: 8rpx;
+  padding: 0 50rpx !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #56bb36;
+}
+
+.btn-warn {
+  color: #fff;
+  background-color: #fe8858;
+}
+
+.btn-warn-light {
+  color: #fa4343;
+  background: #ffece5;
+}
+
+.btn-warn-light::after {
+  border-color: #ffece5;
+}
+
+.btn-danger {
+  color: #fff;
+  background: #fa4343;
+}
+
+.btn-danger::after {
+  border-color: #fa4343;
+}
+
+.btn-default {
+  color: #444;
+  background: #fff;
+}
+
+.btn-default::after {
+  border-color: #ddd;
+  width: calc(200% - 4rpx);
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #fe5400;
+}
+
+.btn-gray {
+  color: #fff;
+  background: #d6d5d4;
+}
+
+.btn-primary-gradient {
+  color: #fff;
+  background-image: linear-gradient(45deg, #68c9ff 0%, #8574ff 100%);
+}
+
+.btn-primary::after {
+  border-color: #0af;
+}
+
+.btn-warn::after {
+  border-color: #f4b33f;
+}
+
+.btn-block {
+  display: block;
+}
+
+.btn-hover {
+  background-color: #0af;
+  color: #fff;
+}
+
+.btn-border-primary {
+  color: #0af;
+}
+
+.btn-danger-border {
+  color: #fa4343;
+}
+
+.btn-danger-border::after {
+  border-color: #fa4343;
+}
+
+.btn-primary::after {
+  border-color: #0af;
+}

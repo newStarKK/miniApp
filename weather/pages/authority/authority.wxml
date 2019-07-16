@@ -1,0 +1,11 @@
+<!--pages/authority/authority.wxml-->
+<view class='authority'>
+  <view class='logo_box'>
+    <image class='logo' mode='widthFix' src='../../images/logo.jpg'></image>
+  </view>
+  <view class='title'>登录后我们将获取您的以下权限</view>
+  <view class='txt'>获得您的公开信息（昵称、头像等）</view>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+    授权登录
+  </button>
+</view>
