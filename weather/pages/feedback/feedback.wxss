@@ -1,0 +1,87 @@
+/* pages/feedback/feedback.wxss */
+.mainBox{
+  width:690rpx;
+  height:382rpx;
+  background:rgba(255,255,255,1);
+  border-radius:10rpx;
+  margin: 39rpx auto 64rpx;
+  padding: 26rpx 37rpx;
+  position: relative
+}
+.textarea{
+  width:100%;
+  height: 130rpx;
+  position: relative;
+   color:rgba(153,153,153,1);
+  font-size: 24rpx;
+  padding-bottom: 40rpx;
+  line-height: 36rpx;
+}
+.textarea text{
+  position: absolute;
+  bottom: 0;right: 25rpx;
+  font-size:24rpx;
+  font-weight:400;
+  color:rgba(76,76,76,1);
+}
+.placeolder{
+  font-size:24rpx;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+}
+.photo{
+  position: absolute;
+  bottom: 57rpx;
+  left: 89rpx;
+}
+.photo image{
+  width: 76rpx;
+  height: 62rpx;
+  display: block;
+}
+.photo text{
+  display: block;
+  font-size:24rpx;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+}
+.submit{
+  width:630rpx;
+  height:80rpx;
+  background:rgba(204,204,204,1);
+  border-radius:40rpx;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 64rpx;
+  margin: 64rpx auto 0
+}
+.subsuccess{
+  width: 641rpx;
+  margin: 0 auto
+}
+.subsuccess image{
+  display: block;
+  width: 176rpx;
+  height: 176rpx;
+  margin: 152rpx auto 52rpx;
+}
+.subsuccess text:nth-child(2){
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size:38rpx;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.subsuccess text:nth-child(3){
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size:28rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(123,123,123,1);
+  margin-top: .15rem
+}

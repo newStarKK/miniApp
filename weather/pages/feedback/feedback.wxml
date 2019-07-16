@@ -1,0 +1,18 @@
+<!--pages/feedback/feedback.wxml-->
+<view wx:if="{{!flag}}">
+  <view class='mainBox'>
+  <textarea placeholder-class='placeolder' class='textarea' placeholder='请输入反馈内容，我们会为您更好的服务'><text>0/200</text>
+  </textarea>
+  <view class='photo'>
+    <image  src='../../images/photo.png'></image>
+    <text>照片</text>
+  </view>
+</view>
+<view class='submit' bindtap='sub'>提交反馈</view>
+</view>
+<!-- 提交成功 -->
+<view class='subsuccess' wx:if="{{flag}}">
+  <image src='../../images/duigou.png'></image>
+  <text>反馈成功</text>
+  <text>感谢你对服务生的关注与支持，我们会认真处理你的反馈，尽快修复和完善相关功能</text>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/cityManage/cityManage.wxml-->
+<view class='listcity'>
+  <view class='icon_text'>
+    <image src='../../images/adressicon.png'></image>
+    <text>杭州</text>
+  </view>
+  <view class='wendu'>36°/26°</view>
+</view>
+<view class='listcity'>
+  <view class='icon_text'>
+    <image src='../../images/adressicon.png'></image>
+    <text>杭州</text>
+  </view>
+  <view class='wendu'>36°/26°</view>
+</view>
+<view class='listcity'>
+  <view class='icon_text'>
+    <image src='../../images/adressicon.png'></image>
+    <text>杭州</text>
+  </view>
+  <view class='wendu'>36°/26°</view>
+</view>

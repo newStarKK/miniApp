@@ -1,0 +1,16 @@
+<!--pages/contactme/contactme.wxml-->
+<view class='main'>
+  <text>公司简介</text>
+  <text>      
+    包图网是上海包图网络科技有限公司旗下素材在线交易网站，于2016年7月上线运营。主要服务是提供图片、视频、音频、psd源文件等形      式的素材。包图网内容版块已有广告设计、摄影图、字体、UI设计、电商淘宝、多媒体、办公文档、装饰·模型、插画配图九大类别。
+  </text>
+  <view class='call' style='margin-top:57rpx'>
+    <text>客服电话</text>
+    <text>010-67770472</text>
+  </view>
+  <view class='day'>
+    <text>工作日</text>
+    <text>9：00-18：00</text>
+  </view>
+  <view class='botominfo'>最终解释权归络科技有限公司</view>
+</view>

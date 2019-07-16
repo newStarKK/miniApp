@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/my/my",
     "pages/admin/admin",
-    "pages/authority/authority"
+    "pages/authority/authority",
+    "pages/cityManage/cityManage",
+    "pages/contactme/contactme",
+    "pages/feedback/feedback"
   ],
   "window": {
     "backgroundTextStyle": "light",
