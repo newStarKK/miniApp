@@ -6,7 +6,8 @@
     "pages/authority/authority",
     "pages/cityManage/cityManage",
     "pages/contactme/contactme",
-    "pages/feedback/feedback"
+    "pages/feedback/feedback",
+    "pages/userhelp/userhelp"
   ],
   "window": {
     "backgroundTextStyle": "light",

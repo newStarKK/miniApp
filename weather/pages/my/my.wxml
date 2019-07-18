@@ -17,7 +17,7 @@
   <navigator url='../cityManage/cityManage'>城市管理</navigator>
   <navigator url='../cityManage/cityManage'>天气早晚提醒</navigator>
   <navigator url='../cityManage/cityManage'>消息通知</navigator>
-  <navigator url='../cityManage/cityManage'>用户帮助</navigator>
+  <navigator url='../userhelp/userhelp'>用户帮助</navigator>
   <navigator url='../feedback/feedback'>意见反馈</navigator>
   <navigator url='../contactme/contactme'>关于我们</navigator>
 </view>
