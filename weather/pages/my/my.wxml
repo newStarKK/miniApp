@@ -1,8 +1,8 @@
 <!--pages/my/my.wxml-->
-<view class="container">
-  <navigator class='my-top' url='../changeuserinfo/changeuserinfo'>
+<!-- <view class="container">
+  <view class='my-top'>
     <block wx:if="{{!hasUserInfo && canIUse}}">
-        <button class="userinfo-avatar" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击 </button>
+      <button class="userinfo-avatar" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击 </button>
       <text class="userinfo-get">获取获取用户信息</text>
     </block>
     <block wx:else>
@@ -13,12 +13,57 @@
       {{userInfo.nickName || 'FA23AFAW'}}
       </view>
     </block>
+  </view>
+</view> -->
+<view class='main'>
+  <navigator url='../changeuserinfo/changeuserinfo' class='tophead'>
+    <view class="photoBox">
+      <image  bindtap="bindViewTap" src="{{userInfo.avatarUrl || '../../images/canyu.png'}}"></image>
+    </view>
+    <view class='name'>15126235975</view>
+     <image class='publicImg' src='../../images/right.png'></image> 
   </navigator>
-  <navigator url='../cityManage/cityManage'>城市管理</navigator>
-  <navigator url='../weather/weather'>天气早晚提醒</navigator>
-  <navigator url='../message/message'>消息通知</navigator>
-  <navigator url='../userhelp/userhelp'>用户帮助</navigator>
-  <navigator url='../feedback/feedback'>意见反馈</navigator>
-  <navigator url='../contactme/contactme'>关于我们</navigator>
+  <navigator url='../cityManage/cityManage' class='listnav'>
+    <view class='icontext'>
+      <image style='width:30rpx;height:30rpx' src='../../images/icon_img (3).png'></image>
+      <text>城市管理</text>
+    </view>
+     <image class='publicImg1'  src='../../images/right.png'></image> 
+  </navigator>
+  <navigator url='../weather/weather' class='listnav'>
+    <view class='icontext'>
+      <image style='width:30rpx;height:25rpx' src='../../images/icon_img (5).png'></image>
+      <text>天气早晚提醒</text>
+    </view>
+     <image class='publicImg1' src='../../images/right.png'></image> 
+  </navigator>
+  <navigator url='../message/message' class='listnav'>
+    <view class='icontext'>
+      <image style='width:21rpx;height:21rpx' src='../../images/icon_img (6).png'></image>
+      <text>消息通知</text>
+    </view>
+     <image class='publicImg1'  src='../../images/right.png'></image> 
+  </navigator>
+  <navigator url='../userhelp/userhelp' class='listnav'>
+    <view class='icontext'>
+      <image style='width:19rpx;height:26rpx' src='../../images/icon_img (2).png'></image>
+      <text>用户帮助</text>
+    </view>
+     <image class='publicImg1'  src='../../images/right.png'></image> 
+  </navigator>
+  <navigator url='../feedback/feedback' class='listnav'>
+    <view class='icontext'>
+      <image style='width:30rpx;height:28rpx' src='../../images/icon_img (1).png'></image>
+      <text>意见反馈</text>
+    </view>
+     <image class='publicImg1'  src='../../images/right.png'></image> 
+  </navigator>
+  <navigator url='../contactme/contactme' class='listnav'>
+    <view class='icontext'>
+      <image style='width:28rpx;height:20rpx' src='../../images/icon_img (1).png'></image>
+      <text>关于我们</text>
+    </view>
+     <image class='publicImg1'  src='../../images/right.png'></image> 
+  </navigator>
 </view>
 

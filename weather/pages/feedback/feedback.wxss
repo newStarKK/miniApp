@@ -44,6 +44,9 @@
   font-size:24rpx;
   font-weight:400;
   color:rgba(153,153,153,1);
+  width:100%;
+text-align:center;
+
 }
 .submit{
   width:630rpx;
