@@ -46,14 +46,11 @@
 }
 .ad{
   width:690rpx;
-  position: absolute;
-  right: -100%;
-  top: -90rpx
+  display: none
   
 }
 .slideup{
- right: 0rpx;
- top: 90rpx;
+ display: block;
  background: #fff;
   box-shadow:2rpx 3rpx 7rpx 0px rgba(117,117,117,0.2);
 }

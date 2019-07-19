@@ -1,0 +1,15 @@
+<!--pages/message/message.wxml-->
+<view wx:if="{{!flag}}">
+  <view class='times'>2019年7月7日 05：00</view>
+  <view class='listone'>
+    <text>滤芯更换提醒</text>
+    <text>您的滤芯剩余不多了，请及时更换，否则将影响正常使用。</text>
+    <view class='time'>05:00</view>
+  </view>
+</view>
+
+<!-- 消息通知暂无数据页面 -->
+<view class='none' wx:if="{{flag}}">
+  <image src='../../images/none.png'></image>
+  <text>还没有消息哦～</text>
+</view>

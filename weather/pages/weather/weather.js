@@ -1,13 +1,11 @@
-// pages/userhelp/userhelp.js
+// pages/weather/weather.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    flag: false,
-    datas:[0,1],
-    num:0
+
   },
 
   /**
@@ -16,13 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  // 点击下拉
-  slideup(e){
-    this.setData({ flag: true, num: e.currentTarget.dataset.num  })
-  },
-  slidedown(e){
-    this.setData({ flag: false, num: e.currentTarget.dataset.num})
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

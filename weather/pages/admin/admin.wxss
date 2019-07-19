@@ -1,1 +1,31 @@
 /* pages/admin/admin.wxss */
+ .none{
+  width: 361rpx;
+  margin: 167rpx auto 0
+}
+.none image{
+  width: 361rpx;
+  height: 309rpx;
+  display: block;
+}
+.none text{
+  font-size:24rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  width: 100%;
+  text-align: center;
+  margin-top: 93rpx;
+  display: block
+}
+.btn{
+  width: 630rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background: #4A86FF;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 30rpx;
+  margin:185rpx auto 0
+}

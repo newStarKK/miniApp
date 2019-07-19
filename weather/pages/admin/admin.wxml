@@ -1,5 +1,8 @@
 <!--pages/admin/admin.wxml-->
-<view class="container">
-  设备
+<view class='none' wx:if="{{flag}}">
+  <image src='../../images/none.png'></image>
+  <text>还没有绑定任何设备哦~</text>
 </view>
+<view class='btn'>绑定设备</view>
+
 

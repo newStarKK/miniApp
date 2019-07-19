@@ -1,0 +1,6 @@
+<!--pages/weather/weather.wxml-->
+<view class='bg'>
+  <text>中国咕噜咕噜市区</text>
+  <text>2019年4月5日 星期一</text>
+  <text>30°</text>
+</view>

@@ -7,7 +7,10 @@
     "pages/cityManage/cityManage",
     "pages/contactme/contactme",
     "pages/feedback/feedback",
-    "pages/userhelp/userhelp"
+    "pages/userhelp/userhelp",
+    "pages/message/message",
+    "pages/changeuserinfo/changeuserinfo",
+    "pages/weather/weather"
   ],
   "window": {
     "backgroundTextStyle": "light",

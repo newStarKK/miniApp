@@ -1,16 +1,18 @@
 <!--pages/userhelp/userhelp.wxml-->
 <view class='main'>
-  <view class='listoone'>
-    <view class='topone {{flag?" bordernone":""}}' catchtap='slideup'>
-      <text>1、什么是空气净化器？</text>
-      <image src='../../images/right.png'></image>
-    </view>
-    <view class='cover' catchtap="slidedown" wx:if="{{flag}}"></view>
-    <view class='ad {{flag?"slideup":"slidedown"}}'>
-       <view class='desc'>
-        空气净化器又称“空气清洁器”、空气清新机、净化器，是指能够吸附、分解或转化各种空气污染物（一般包括PM2.5、粉尘、花粉、异味、甲醛之类的装修污染、细菌、过敏原等），有效提高空气清洁度的产品，主要分为家用 、商用、工业、楼宇。
+  <block wx:for="{{datas}}" wx:for-index="i" wx:key="">
+    <view class='listoone'>
+      <view class='topone {{num==i&&flag?" bordernone":""}}' data-num='{{i}}' catchtap='slideup'>
+        <text>1、什么是空气净化器？</text>
+        <image src='../../images/right.png'></image>
       </view>
-    </view>
-   
-  </view>
+      <view class='cover' catchtap="slidedown" data-num='{{i}}' wx:if="{{num==i&&flag}}"></view>
+      <view class='ad {{num==i&&flag?"slideup":"slidedown"}}'>
+        <view class='desc'>
+          空气净化器又称“空气清洁器”、空气清新机、净化器，是指能够吸附、分解或转化各种空气污染物（一般包括PM2.5、粉尘、花粉、异味、甲醛之类的装修污染、细菌、过敏原等），有效提高空气清洁度的产品，主要分为家用 、商用、工业、楼宇。
+        </view>
+      </view>
+    </view> 
+  </block>
+
 </view>

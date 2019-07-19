@@ -1,6 +1,6 @@
 <!--pages/my/my.wxml-->
 <view class="container">
-  <view class='my-top'>
+  <navigator class='my-top' url='../changeuserinfo/changeuserinfo'>
     <block wx:if="{{!hasUserInfo && canIUse}}">
         <button class="userinfo-avatar" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击 </button>
       <text class="userinfo-get">获取获取用户信息</text>
@@ -13,10 +13,10 @@
       {{userInfo.nickName || 'FA23AFAW'}}
       </view>
     </block>
-  </view>
+  </navigator>
   <navigator url='../cityManage/cityManage'>城市管理</navigator>
-  <navigator url='../cityManage/cityManage'>天气早晚提醒</navigator>
-  <navigator url='../cityManage/cityManage'>消息通知</navigator>
+  <navigator url='../weather/weather'>天气早晚提醒</navigator>
+  <navigator url='../message/message'>消息通知</navigator>
   <navigator url='../userhelp/userhelp'>用户帮助</navigator>
   <navigator url='../feedback/feedback'>意见反馈</navigator>
   <navigator url='../contactme/contactme'>关于我们</navigator>

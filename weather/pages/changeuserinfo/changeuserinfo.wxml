@@ -1,0 +1,17 @@
+<!--pages/changeuserinfo/changeuserinfo.wxml-->
+<view class='listone'>
+  <text>头像</text>
+  <view> 
+    <image src='../../images/changeimg.png'></image>
+    <image src='../../images/right.png'></image>
+  </view>
+</view>
+<view class='listone'>
+  <text>姓名</text>
+  <text>王五</text>
+</view>
+<view class='listone'>
+  <text>手机号</text>
+  <text>17159632689</text>
+</view>
+<view class='btn'>确定</view>
