@@ -1,7 +1,7 @@
 <!--pages/feedback/feedback.wxml-->
 <view wx:if="{{!flag}}">
   <view class='mainBox'>
-  <textarea placeholder-class='placeolder' class='textarea' placeholder='请输入反馈内容，我们会为您更好的服务'><text>0/200</text>
+  <textarea bindinput="inputs"  placeholder-class='placeolder' maxlength="{{max}}" class='textarea' placeholder='请输入反馈内容，我们会为您更好的服务'><text>{{currentWordNumber|0}}/{{max}}</text>
   </textarea>
   <view class='photo'>
     <image  src='../../images/photo.png'></image>

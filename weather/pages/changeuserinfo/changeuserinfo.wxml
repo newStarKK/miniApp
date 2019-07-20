@@ -1,17 +1,18 @@
 <!--pages/changeuserinfo/changeuserinfo.wxml-->
-<view class='listone'>
+<view class='listone' bindtap="chooseimage">
   <text>头像</text>
   <view> 
-    <image src='../../images/changeimg.png'></image>
+    <image wx:if="{{tempFilePaths.length>0}}" src='{{tempFilePaths}}'></image>
+    <image wx:if="{{tempFilePaths.length==0}}" src='../../images/changeimg.png'></image>
     <image src='../../images/right.png'></image>
   </view>
 </view>
 <view class='listone'>
   <text>姓名</text>
-  <text>王五</text>
+  <input placeholder='王五'></input>
 </view>
 <view class='listone'>
   <text>手机号</text>
-  <text>17159632689</text>
+  <input type='number' placeholder="17159632689"></input>
 </view>
 <view class='btn'>确定</view>
