@@ -1,17 +1,14 @@
 /* pages/feedback/feedback.wxss */
 .mainBox{
   width:690rpx;
-  height:382rpx;
   background:rgba(255,255,255,1);
   border-radius:10rpx;
   margin: 39rpx auto 64rpx;
   padding: 26rpx 37rpx;
-  position: relative
 }
 .textarea{
   width:100%;
   height: 130rpx;
-  position: relative;
    color:rgba(153,153,153,1);
   font-size: 24rpx;
   padding-bottom: 40rpx;
@@ -30,9 +27,7 @@
   color:rgba(153,153,153,1);
 }
 .photo{
-  position: absolute;
-  bottom: 57rpx;
-  left: 89rpx;
+  width: 76rpx
 }
 .photo image{
   width: 76rpx;
@@ -87,4 +82,15 @@ text-align:center;
   font-weight:400;
   color:rgba(123,123,123,1);
   margin-top: .15rem
+}
+.loadimg{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx
+}
+.loadimg image{
+  width:100%;
+  height: 100%;
+  object-fit: cover
 }

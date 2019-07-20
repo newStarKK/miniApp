@@ -3,7 +3,10 @@
   <view class='mainBox'>
   <textarea bindinput="inputs"  placeholder-class='placeolder' maxlength="{{max}}" class='textarea' placeholder='请输入反馈内容，我们会为您更好的服务'><text>{{currentWordNumber|0}}/{{max}}</text>
   </textarea>
-  <view class='photo'>
+  <view class='loadimg' wx:if="{{tempFilePaths.length>0}}">
+      <image  src='{{tempFilePaths}}'></image>
+    </view>
+  <view class='photo' bindtap='chooseimage'> 
     <image  src='../../images/photo.png'></image>
     <text>照片</text>
   </view>
@@ -12,7 +15,7 @@
 </view>
 <!-- 提交成功 -->
 <view class='subsuccess' wx:if="{{flag}}">
-  <image src='../../images/duigou.png'></image>
+  <image src='../../images/duigou.png'></image> 
   <text>反馈成功</text>
   <text>感谢你对服务生的关注与支持，我们会认真处理你的反馈，尽快修复和完善相关功能</text>
 </view>
