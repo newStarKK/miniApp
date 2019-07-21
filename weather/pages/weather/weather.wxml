@@ -3,4 +3,35 @@
   <text>中国咕噜咕噜市区</text>
   <text>2019年4月5日 星期一</text>
   <text>30°</text>
+  <view class='weatherImg'>
+    <image src='../../images/weatherimg.png'></image>
+  </view>
+  <view class='weatherText'>多云转晴</view>
+  <view class='listWeather'>
+    <view class='listone'>
+      <text>今日</text>
+      <image src='../../images/weather1.png'></image>
+      <text>72 ˚/69 ˚</text>
+    </view>
+    <view class='listone'>
+      <text>今日</text>
+      <image src='../../images/weather1.png'></image>
+      <text>72 ˚/69 ˚</text>
+    </view>
+    <view class='listone'>
+      <text>今日</text>
+      <image src='../../images/weather1.png'></image>
+      <text>72 ˚/69 ˚</text>
+    </view>
+    <view class='listone'>
+      <text>今日</text>
+      <image src='../../images/weather1.png'></image>
+      <text>72 ˚/69 ˚</text>
+    </view>
+    <view class='listone'>
+      <text>今日</text>
+      <image src='../../images/weather1.png'></image>
+      <text>72 ˚/69 ˚</text>
+    </view>
+  </view>
 </view>
